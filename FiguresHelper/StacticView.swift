@@ -42,7 +42,11 @@ struct StacticView: View {
                             Text("100")
                 })
                 
-                Text("Area")
+                Text("Area:")
+                    .bold()
+                    .font(.title)
+                    .padding(10)
+                
             }
             
             
