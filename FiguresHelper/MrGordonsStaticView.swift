@@ -11,6 +11,16 @@
 
         struct CircleView: View {
             
+            //Mark: Stored Properties
+            //"radius" is name
+            //"double" is the data type
+            //by adding = 15.0 we are just providing a default value
+            var radius: Double = 30.00
+            // Mark: Computed Properties
+            var area: Double{
+                return Double.pi * radius * radius
+            }
+            
             // User interface
             var body: some View {
                 VStack(alignment: .leading, spacing: 20) {
@@ -24,7 +34,7 @@
                         // Show the selected radius value
                         HStack {
                             Spacer()
-                            Text("\( String(format: "%.2f", 15.0) )")
+                            Text("\(radius)")
                                 .font(.title2)
                                 .bold()
                             Spacer()
@@ -49,7 +59,7 @@
                     Text("Area:")
                         .bold()
                     
-                    Text("706.9 square units")
+                    Text("\(area) Square Units")
                         .font(.title2)
                     
                     

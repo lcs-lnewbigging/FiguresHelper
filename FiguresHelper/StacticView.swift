@@ -33,15 +33,15 @@ struct StacticView: View {
                 Slider(value: .constant(50.0),
                        in: 0.0...100.0,
                        label: {
-                            Text("Opacity")
+                    Text("Opacity")
                 },
                        minimumValueLabel: {
-                            Text("0")
+                    Text("0")
                 },
                        maximumValueLabel: {
-                            Text("100")
+                    Text("100")
                 })
-                
+                    .padding(10)
                 Text("Area:")
                     .bold()
                     .font(.title)
@@ -53,7 +53,7 @@ struct StacticView: View {
             
             
             
-            
+            .navigationTitle("Area Of A Circle")
         }
         
     }
