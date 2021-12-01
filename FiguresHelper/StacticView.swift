@@ -9,12 +9,60 @@ import SwiftUI
 
 struct StacticView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+            VStack(alignment:.leading){
+                Text("Circle")
+                    .bold()
+                    .font(.title)
+                    .padding(10)
+                Text("Radius")
+                    .bold()
+                    .font(.title)
+                    .padding(10)
+                Spacer()
+                
+                HStack{
+                    Text("25.0")
+                        .padding(10)
+                }
+                
+                Text("This is a cool slider")
+                    .bold()
+                    .padding(.bottom, 10)
+                    .padding(10)
+                Slider(value: .constant(50.0),
+                       in: 0.0...100.0,
+                       label: {
+                            Text("Opacity")
+                },
+                       minimumValueLabel: {
+                            Text("0")
+                },
+                       maximumValueLabel: {
+                            Text("100")
+                })
+                
+                Text("Area")
+            }
+            
+            
+            
+            
+            
+            
+        }
+        
     }
+    
 }
+
+
+
 
 struct StacticView_Previews: PreviewProvider {
     static var previews: some View {
-        StacticView()
+        NavigationView{
+            StacticView()
+        }
     }
 }
