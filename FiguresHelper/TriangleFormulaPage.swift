@@ -24,6 +24,14 @@ struct TriangleFormulaPage: View {
                     .font(.title3)
                     .padding(10)
             
+                HStack {
+                    Spacer()
+                    Text("\(String(format:"%.2f", base))")
+                        .font(.title2)
+                        .bold()
+                    Spacer()
+                }
+                
                 Slider(value: $base,
                        in: 0.0...100.0,
                        step: 1.0,
@@ -41,6 +49,14 @@ struct TriangleFormulaPage: View {
                     .bold()
                     .font(.title3)
                     .padding(10)
+                
+                HStack {
+                    Spacer()
+                    Text("\(String(format: "%.2f", height))")
+                        .font(.title2)
+                        .bold()
+                    Spacer()
+                }
                 
                 Slider(value: $height,
                        in: 0.0...100.0,

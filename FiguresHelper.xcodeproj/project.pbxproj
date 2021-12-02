@@ -11,7 +11,7 @@
 		FE8C01912757C406007C9C62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C01902757C406007C9C62 /* ContentView.swift */; };
 		FE8C01932757C409007C9C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8C01922757C409007C9C62 /* Assets.xcassets */; };
 		FE8C01962757C409007C9C62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8C01952757C409007C9C62 /* Preview Assets.xcassets */; };
-		FE8C019D2757C431007C9C62 /* StacticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C019C2757C431007C9C62 /* StacticView.swift */; };
+		FE8C019D2757C431007C9C62 /* CircleFormulaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C019C2757C431007C9C62 /* CircleFormulaPage.swift */; };
 		FE8C019F2757C6DD007C9C62 /* MrGordonsStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C019E2757C6DD007C9C62 /* MrGordonsStaticView.swift */; };
 		FE8C01A12757CE70007C9C62 /* TriangleFormulaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C01A02757CE70007C9C62 /* TriangleFormulaPage.swift */; };
 		FE8C01A327584540007C9C62 /* FiguresHelperLandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C01A227584540007C9C62 /* FiguresHelperLandingPage.swift */; };
@@ -23,7 +23,7 @@
 		FE8C01902757C406007C9C62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE8C01922757C409007C9C62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE8C01952757C409007C9C62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FE8C019C2757C431007C9C62 /* StacticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacticView.swift; sourceTree = "<group>"; };
+		FE8C019C2757C431007C9C62 /* CircleFormulaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleFormulaPage.swift; sourceTree = "<group>"; };
 		FE8C019E2757C6DD007C9C62 /* MrGordonsStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrGordonsStaticView.swift; sourceTree = "<group>"; };
 		FE8C01A02757CE70007C9C62 /* TriangleFormulaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleFormulaPage.swift; sourceTree = "<group>"; };
 		FE8C01A227584540007C9C62 /* FiguresHelperLandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FiguresHelperLandingPage.swift; path = ../../FiguresHelperLandingPage.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			children = (
 				FE8C018E2757C406007C9C62 /* FiguresHelperApp.swift */,
 				FE8C01902757C406007C9C62 /* ContentView.swift */,
-				FE8C019C2757C431007C9C62 /* StacticView.swift */,
+				FE8C019C2757C431007C9C62 /* CircleFormulaPage.swift */,
 				FE8C019E2757C6DD007C9C62 /* MrGordonsStaticView.swift */,
 				FE8C01A02757CE70007C9C62 /* TriangleFormulaPage.swift */,
 				FE8C01A227584540007C9C62 /* FiguresHelperLandingPage.swift */,
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8C01912757C406007C9C62 /* ContentView.swift in Sources */,
-				FE8C019D2757C431007C9C62 /* StacticView.swift in Sources */,
+				FE8C019D2757C431007C9C62 /* CircleFormulaPage.swift in Sources */,
 				FE8C01A327584540007C9C62 /* FiguresHelperLandingPage.swift in Sources */,
 				FE8C019F2757C6DD007C9C62 /* MrGordonsStaticView.swift in Sources */,
 				FE8C01A12757CE70007C9C62 /* TriangleFormulaPage.swift in Sources */,
