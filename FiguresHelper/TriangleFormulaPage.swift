@@ -26,7 +26,7 @@ struct TriangleFormulaPage: View {
             
                 HStack {
                     Spacer()
-                    Text("\(String(format:"%.2f", base))")
+                    Text("\(String(format:"%.0f", base))")
                         .font(.title2)
                         .bold()
                     Spacer()
@@ -52,7 +52,7 @@ struct TriangleFormulaPage: View {
                 
                 HStack {
                     Spacer()
-                    Text("\(String(format: "%.2f", height))")
+                    Text("\(String(format: "%.0f", height))")
                         .font(.title2)
                         .bold()
                     Spacer()
@@ -78,7 +78,7 @@ struct TriangleFormulaPage: View {
                     .bold()
                     .font(.title3)
                     .padding(10)
-                Text("\(area) Square Units")
+                Text("\(String(format:"%.2f", area ) ) Square Units")
                     .font(.title2)
                     .padding(10)
             
